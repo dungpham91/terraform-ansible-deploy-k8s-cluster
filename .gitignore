@@ -27,3 +27,9 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# Ignore for folder s3-backend
+s3-backend/.terraform
+s3-backend/.terraform.lock.hcl
+s3-backend/*.tfstate
+s3-backend/*.tfstate.*
